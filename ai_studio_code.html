@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aashish Stonna | Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">AS<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-btns">
+                <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h4>Welcome to my world</h4>
+                <h1>I'm <span class="highlight">Aashish Stonna</span></h1>
+                <h3>I am a <span class="typing"></span></h3>
+                <p>2nd Year IT Engineering Student passionate about building scalable web applications and solving complex problems.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="zoom-in">
+                <div class="img-box">
+                    <!-- Replace with your actual photo -->
+                    <img src="https://via.placeholder.com/400x400" alt="Aashish Stonna">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text" data-aos="fade-right">
+                    <p>I am currently pursuing my B.E. in IT Engineering. My journey in tech started with curiosity about how things work on the internet, which evolved into a passion for software development. I love turning lines of code into functional, beautiful user experiences.</p>
+                    <p>My goal is to bridge the gap between design and engineering while constantly learning new frameworks and tools.</p>
+                    <a href="#" class="btn btn-primary">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+            <div class="skills-container">
+                <!-- Frontend -->
+                <div class="skill-category" data-aos="fade-up">
+                    <h3>Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><span>HTML/CSS</span> <div class="progress"><div class="bar" style="width: 90%"></div></div></div>
+                        <div class="skill-item"><span>JavaScript</span> <div class="progress"><div class="bar" style="width: 80%"></div></div></div>
+                        <div class="skill-item"><span>React.js</span> <div class="progress"><div class="bar" style="width: 65%"></div></div></div>
+                    </div>
+                </div>
+                <!-- Backend & Tools -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Backend & Tools</h3>
+                    <div class="skill-list">
+                        <div class="skill-item"><span>Node.js</span> <div class="progress"><div class="bar" style="width: 60%"></div></div></div>
+                        <div class="skill-item"><span>Python/C++</span> <div class="progress"><div class="bar" style="width: 75%"></div></div></div>
+                        <div class="skill-item"><span>Git/GitHub</span> <div class="progress"><div class="bar" style="width: 85%"></div></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="flip-left">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce UI</h3>
+                        <p>A modern responsive e-commerce landing page with dark mode support.</p>
+                        <div class="tech-stack">
+                            <span>React</span> <span>Tailwind</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>Full-stack To-Do app with user authentication and database storage.</p>
+                        <div class="tech-stack">
+                            <span>Node.js</span> <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/350x200" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather API App</h3>
+                        <p>Real-time weather tracking using OpenWeatherMap API.</p>
+                        <div class="tech-stack">
+                            <span>JS Vanilla</span> <span>API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's talk about your project</h3>
+                    <p>I'm currently looking for internship opportunities!</p>
+                    <div class="info-links">
+                        <a href="mailto:aashish@example.com"><i class="fas fa-envelope"></i> aashish@email.com</a>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" data-aos="fade-left">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Aashish Stonna. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
